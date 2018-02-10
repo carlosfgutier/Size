@@ -8,7 +8,7 @@ Size is a universal sizing app. It uses measurements in inches to give users the
 
 ## How to start Size locally
 
-1. Clone the this repo.
+1. Clone this repo.
 
 2. run 'yarn install' at the directory's root level as well as within the client folder. This will make sure all dependencies are running locally.
 
