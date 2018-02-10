@@ -24,4 +24,4 @@ Size is a universal sizing app. It uses measurements in inches to give users the
 
 8. Restart the server and you're ready to go.
 
-![alt text](https://raw.githubusercontent.com/carlosfgutier/Size/master/client/public/images/sizeUI.png)
+![alt text](https://raw.githubusercontent.com/carlosfgutier/Size/master/client/public/sizeUI.png)
