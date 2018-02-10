@@ -1,45 +1,27 @@
 https://mighty-depths-40970.herokuapp.com/
 
-# Create React Express App
+# Size
 
-## About This Boilerplate
+## What is Size?
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+Size is a universal sizing app. It uses measurements in inches to give users their accurate sizes for different clothing items from different stores or brands.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+## How to start Size locally
 
-## Starting the app locally
+1. Clone the this repo.
 
-Start by installing front and backend dependencies. While in this directory, run the following commands:
+2. run 'yarn install' at the directory's root level as well as within the client folder. This will make sure all dependencies are running locally.
 
-```
-yarn install
-cd client
-yarn install
-cd ..
-``
+3. Open SQL database manager and run this code to create a database "CREATE DATABASE sizes_db".
 
-After both installations complete, run the following command in your terminal:
+4. In your SQL database manager run "USE sizes_db".
 
-```
-yarn start
-```
+5. At this point, review the credentials in config/config.json and make sure they match your machine's. You can also rename the database and repeat steps 3 and 4 using your new database's name.
 
-That's it, your app should be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+6. Run "yarn start" to initialize the app and create the tables.
 
-## Deployment (Heroku)
+7. Export seeds.sql withing the seeders folder into MySQL and run the code.
 
-After confirming that you have an up to date git repository and a Heroku app created, complete the following:
+8. Restart the server and you're ready to go.
 
-1. Build the React app for production by running the following command:
-
-```
-yarn build
-```
-> Note: A yarn build will be required to register any new Post requests from any front-end JavaScript to to prevent any proxy server errors.
-
-2. Add and commit all changes to git
-
-3. Push to Heroku
-
-If all previous steps were followed correctly, your application should be deployed to Heroku!
+![alt text](https://raw.githubusercontent.com/carlosfgutier/Size/master/client/public/images/sizeUI.png)
